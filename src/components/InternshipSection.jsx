@@ -11,7 +11,7 @@ export const InternshipSection = () => {
       <div className="mt-16  text-center -mb-5">
         <h1 className='font-bold md:text-4xl font-poppins'>Perfect Internship's For You</h1>
       </div>
-      <div className="flex flex-wrap gap-3  2xl:container mx-auto  sm:gap-24  md:gap-20 justify-center">
+      <div className="flex flex-wrap gap-3  2xl:container mx-auto  sm:gap-12   justify-center">
         <OppurtunityCard
           title="Graphic Designing"
           employment="Hybrid"
