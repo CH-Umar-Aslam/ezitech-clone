@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  background-color: #002C8B;
+  color: antiquewhite;
+  /* margin-top: 33h; */
+  /* display: flex; */
+  /* flex-wrap: 1; */
+  /* justify-content: space-evenly; */
+
+}
+.footer{
+  
+  display: flex;   
+}
+.about{
+  margin-right: 50px;
+}
+
+.course{
+  margin-right: 30px;
+}
+.course img{
+  display: flex;
+  margin-right: 20px;
+  height: 100%;
+  
+}
+.copy{
+  display: flex;
+  justify-content: center;
+}
+.img{
+  display: flex;
+  height: 50px;
+  /* width: 50px; */
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.page{
+  /* display: flex; */
+  margin-right: 8rem;
+  
+}
+
+.page a{
+  text-decoration: none;
+  color: white;
+  /* padding-left: 10px; */
+}
+.page ul > li{
+list-style: circle;
+  color: white;
+  /* padding-left: 10px; */
+}
+
+
+
+.footer-bottom {
+  margin-top: 80px;
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+/* .footer-bottom .chat-button {
+  background-color: #0077CC;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+} */
+
+
+
+.social-icons a {
+  text-decoration: none;
+  color: wheat;
+}
+
+
+
