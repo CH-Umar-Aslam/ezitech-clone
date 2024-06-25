@@ -7,6 +7,8 @@ import { InternshipSection } from './components/InternshipSection'
 import Footer from './components/Footer'
 import InvestingYourself from './components/InvestingYourself'
 import HowWorks from './components/HowWorks'
+import CourseCard from './components/CourseCard'
+import CoursesSection from './components/CoursesSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +19,7 @@ function App() {
       <Navbar />
       <HowWorks />
       <InternshipSection />
-
+      <CoursesSection />
       <InvestingYourself />
       <Footer />
     </>

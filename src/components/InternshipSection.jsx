@@ -4,7 +4,7 @@ import mern from "../assets/app-development-511x511.png"
 import UI from "../assets/web-design-511x511.png"
 import DigitalMarketing from "../assets/What-is-a-digital-marketing-agency.webp"
 import HTML from "../assets/vvvv-69x69.png"
-import Flutter from "../assets/Flutter-Development.jpg"
+import Flutter from "../assets/Flutter-Development-300x225.jpg"
 export const InternshipSection = () => {
   return (
     <div >
